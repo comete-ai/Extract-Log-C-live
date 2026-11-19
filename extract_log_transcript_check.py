@@ -2,8 +2,8 @@ import json
 import re
 import pandas as pd
 
-log_file_path = "log-prod-2026082001.log"
-output_excel_path = "export_transcripts.xlsx"
+log_file_path = "log-prod-20260903.log"
+output_excel_path = "export_transcripts_20260903.xlsx"
 
 # Regex pour éliminer les caractères de contrôle non valides en XML/Excel
 ILLEGAL_CHARACTERS_RE = re.compile(

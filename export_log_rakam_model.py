@@ -126,4 +126,4 @@ def parse_log_to_excel(log_file_path, output_excel_path):
 
 
 if __name__ == "__main__":
-    parse_log_to_excel("Log-20260806.log", "Rapport_IA_20260806.xlsx")
+    parse_log_to_excel("log-prod-20260901_03.log", "Rapport_IA_20260901.xlsx")
